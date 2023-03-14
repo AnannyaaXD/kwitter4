@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <button id="log-out">Log Out</button>
+        <style>
+            .log-out{
+                color: #00b0e6;
+            }
+            .log-out[type=submit]:hover {
+                background-color: #005ce6;
+            }
+        </style>
+        <label id="user-name"></label>
+        <br>
+        <br>
+        <input type="text" id="room-name">
+        <button onclick="addRoom()">Add Room</button>
+        <br>
+        <br>
+        <button onclick="logOut()">Log Out</button>
+        <br>
+        <br>
+        <center>
+            <div class="input_div_message_page">
+                <input type="text" class="form-control" id="message" placeholder="Message">
+                <button class="btn btn-primary" onclick="Send()">Send</button>
+            </div>
+        </center>
+    </body>
+</html>
